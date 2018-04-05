@@ -11,12 +11,18 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "maknz/slack": "~1.0"
+        "maknz/slack": "dev-master"
     },
     "autoload": {
         "psr-4": {
             "Maknz\\Slack\\Laravel\\": "src/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "repositories": [
+    {
+      "url": "https://github.com/michabbb/slack-1.git",
+      "type": "vcs"
+    }
+  ]
 }
